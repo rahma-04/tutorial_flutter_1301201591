@@ -57,9 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
               ),
             ),
-            Center(
-              child: Text('Email page', style: TextStyle(fontSize: 35)),
-            ),
+            MyApp11_2(),
             Center(
               child: Text('Profile page', style: TextStyle(fontSize: 35)),
             ),
