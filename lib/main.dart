@@ -172,13 +172,13 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                 margin: EdgeInsets.symmetric(vertical: 5),
                 child: InkWell(
-                  child: Text('Go to Tutorial 11-1',
+                  child: Text('Go to Tutorial 12',
                       style: TextStyle(color: Colors.indigo, fontSize: 26)),
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const MyApp11_1()));
+                            builder: (context) => const MyApp12()));
                   },
                 ),
               )
